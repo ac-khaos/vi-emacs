@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: post
+# key: post
+# --
+${1:funName}(data) {
+  return DPMSHTTP.post('${2:url}', data);
+},

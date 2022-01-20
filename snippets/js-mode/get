@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: get
+# key: get
+# --
+${1:funName}(params) {
+  return DPMSHTTP.get('${2:url}', { params });
+},

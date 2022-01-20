@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: global-bind-key
+# key: gbk
+# --
+(global-set-key (kbd "${1:key}") '${2:func})

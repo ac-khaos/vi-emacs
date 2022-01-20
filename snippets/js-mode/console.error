@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: console.error
+# key: clr
+# --
+console.error(${1:error});

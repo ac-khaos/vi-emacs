@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: todo
+# key: todo
+# --
+#+todo: TODO(t) PENDING(p) IN-PROGRESS(i) | WARNING(w@) CANCELED(c@) DONE(d!)

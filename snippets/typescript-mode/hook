@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: hook
+# key: hook
+# --
+import React, { useState, useEffect } from 'react';
+
+export default (props) => {
+  return (
+    ${1:div}
+  );
+};

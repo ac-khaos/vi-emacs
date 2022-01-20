@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: rhook
+# key: rhook
+# --
+import React, { useState, useEffect } from 'react';
+
+function ${1:ReactName} (props) {
+
+  useEffect(() => {
+  }, []);
+
+  return (
+    ${2:Doom}
+  );
+}
+
+export default $1;

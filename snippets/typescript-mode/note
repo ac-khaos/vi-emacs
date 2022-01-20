@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: note
+# key: note
+# --
+/*
+** Date: `(format-time-string "%Y-%m-%d")`
+** Author: ${1:创建人}
+** Title: ${2:标题}
+** Profile: ${3:简介}
+*/
