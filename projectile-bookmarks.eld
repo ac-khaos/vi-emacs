@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/.emacs.d/" "~/Works/five-medical/" "~/Laboratory/chaos_engines/" "~/" "~/.hammerspoon/" "~/Laboratory/rust_study/" "~/Laboratory/rust_primary/" "~/Works/electron-medical/" "~/Laboratory/CV_interactive_map/")

@@ -1,10 +1,5 @@
 ;; 相对行号
-(dolist (hook (list
-               'js-mode-hook
-               'emacs-lisp-mode-hook
-               ))
-  (add-hook hook '(lambda () (linum-mode 1)))
-  )
+(add-hook 'after-init-hook '(lambda () (linum-mode 1)))
 
 ;; (custom-set-faces
 ;;  '(linum ((t (:inherit (shadow default) :foreground "#a1a1a1")))))

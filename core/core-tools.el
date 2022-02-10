@@ -4,11 +4,6 @@
   :hook
   (after-init . exec-path-from-shell-initialize))
 
-;; 文本区域选择
-(use-package expand-region
-  :bind
-  ("C-=" . er/expand-region))
-
 ;; 文本注释
 (use-package evil-nerd-commenter
   :config
@@ -17,21 +12,12 @@
   )
 
 ;; 光标快速跳转
-(use-package avy
-  :config
-  (define-key input-decode-map (kbd "C-i") (kbd "H-i"))
-  (global-set-key (kbd "H-i") 'avy-goto-char-2)
-  )
+(use-package avy)
 
 ;; 窗口跳转
 (use-package ace-window
-  :bind
-  ("C--" . ace-window)
   :config
   (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
-  ;; (setq aw-background t)
-  ;; (setq aw-minibuffer-flag 1)
-  ;; (setq aw-ignore-current nil)
   )
 
 ;; 彩虹括号
@@ -71,5 +57,19 @@
 
 ;; --------------------------------------------------------
 ;; }
+
+;; 行号
+(use-package linum-relative
+  :config
+  (global-linum-mode)
+  (setq linum-relative-backend 'display-line-numbers-mode)
+  )
+
+;; 快捷键提示
+(use-package which-key
+  :config
+  (which-key-mode)
+  (which-key-setup-side-window-bottom)
+  )
 
 (provide 'core-tools)

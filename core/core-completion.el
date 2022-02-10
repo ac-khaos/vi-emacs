@@ -3,9 +3,6 @@
   (after-init . global-company-mode)
   )
 
-(use-package company-box
-  :hook (company-mode . company-box-mode))
-
 ;; html标签补全
 (use-package emmet-mode
   :hook
@@ -19,8 +16,6 @@
 
 ;; 快速插入片段
 (use-package yasnippet
-  :bind
-  ("C-c Y" . yas-new-snippet)
   :config
   (yas-global-mode 1)
   (yas/initialize)

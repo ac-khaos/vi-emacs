@@ -19,12 +19,12 @@
 (require 'core-init)
 ;; 包&源管理
 (require 'core-package)
+;; 行号
+(require 'core-linum)
 ;; evil mode
 (require 'core-evil)
 ;; 颜色主题
 (require 'core-themes)
-;; 自定义快捷键
-;; (require 'core-keybindings)
 ;; 基础工具
 (require 'core-tools)
 ;; 管理工具
@@ -33,5 +33,3 @@
 (require 'core-completion)
 ;; major modes
 (require 'core-major-modes)
-;; 插件工具
-;; (require 'core-implements)

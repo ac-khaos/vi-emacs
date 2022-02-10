@@ -66,9 +66,9 @@
 
 (use-package doom-themes
   :config
-  (load-theme 'doom-dracula t)
+  ;; (load-theme 'doom-dracula t)
   ;; (load-theme 'doom-horizon t)
-  ;; (load-theme 'doom-tomorrow-day t)
+  (load-theme 'doom-tomorrow-day t)
   ;; (load-theme 'doom-nord-light t)
   )
 
